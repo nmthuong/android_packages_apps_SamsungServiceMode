@@ -6,6 +6,7 @@ import android.content.Intent;
 
 public class SecretBroadcastReceiver extends BroadcastReceiver {
 
+    
     @Override
     public void onReceive(Context context, Intent intent) {
         String code = intent.getData().getHost();
